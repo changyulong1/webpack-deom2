@@ -1,0 +1,14 @@
+{
+  "name": "webpack-deom2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && webpack "
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "3",
+    "webpack": "4",
+    "webpack-cli": "3"
+  }
+}
