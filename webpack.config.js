@@ -5,9 +5,10 @@ module.exports = {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
-        static: './dist',
+        contentBase: "./dist"
     },
     entry: './src/index.js',
+
     output: {
         filename: '[name].[chunkhash].js'
     },
@@ -24,5 +25,5 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
         ],
-    },
+    }
 };
